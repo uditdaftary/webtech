@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>q3 - Fruit Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        /* A bit of messy global styling */
+        .main-container {
+            width: 450px;
+            background-color: #f0f0f0;
+            border: 2px solid #808080;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding-bottom: 20px;
+        }
+        .header {
+            background-color: #d0d0d0;
+            text-align: right;
+            padding: 8px;
+            font-weight: bold;
+            border-bottom: 1px solid #a0a0a0;
+            margin-bottom: 10px;
+        }
+        td {
+            padding: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="header">The World of Fruit</div>
+
+        <form>
+            <h3 style="text-align: right; margin-right: 60px; margin-top: 5px;">Fruit Survey</h3>
+
+            <table border="0" width="100%" cellspacing="2">
+                <tr>
+                    <td align="right" width="45%">Name</td>
+                    <td><input type="text" name="name" style="width: 160px;"></td>
+                </tr>
+                <tr>
+                    <td align="right">Address</td>
+                    <td><input type="text" name="addr" style="width: 160px;"></td>
+                </tr>
+                <tr>
+                    <td align="right">Email</td>
+                    <td><input type="text" name="email" style="width: 160px;"></td>
+                </tr>
+                
+                <tr>
+                    <td align="right" valign="top">How many pieces of fruit<br> do you eat per day?</td>
+                    <td>
+                        <input type="radio" name="count" value="0"> 0<br>
+                        <input type="radio" name="count" value="1"> 1<br>
+                        <input type="radio" name="count" value="2"> 2<br>
+                        <input type="radio" name="count" value="more"> More than 2
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right" valign="top">My favourite fruit</td>
+                    <td>
+                        <select name="fruit" size="4" style="width: 100px;">
+                            <option>Apple</option>
+                            <option>Banana</option>
+                            <option>Plum</option>
+                            <option>Pomegranate</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right" valign="top">Would you like a<br> brochure?</td>
+                    <td>
+                        <br> <input type="checkbox" name="brochure">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <br>
+    <h2>Udit Daftary</h2>
+    <h2>24BIT0054</h2>
+
+</body>
+</html>
